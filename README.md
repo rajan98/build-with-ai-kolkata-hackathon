@@ -4,11 +4,17 @@
 > 
 > *A submission for the Smolify AI Hackathon by team VeltroxDev.*
 
+[![Model on Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Model-blue)](https://huggingface.co/rajan-jar/smolified-python-code-to-english)
+[![Dataset on Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Dataset-green)](https://huggingface.co/datasets/rajan-jar/smolified-python-code-to-english)
 ![Model](https://img.shields.io/badge/Model-Gemma_3_270M-blue)
 ![Platform](https://img.shields.io/badge/Platform-Smolify-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+
+## 🔗 Live Resources
+
+* **Fine-Tuned Model:** [rajan-jar/smolified-python-code-to-english](https://huggingface.co/rajan-jar/smolified-python-code-to-english)
+* **Training Dataset:** [rajan-jar/smolified-python-code-to-english (Dataset)](https://huggingface.co/datasets/rajan-jar/smolified-python-code-to-english)
 
 ## 🚨 The Problem: The Developer-Stakeholder Communication Gap
 
@@ -31,5 +37,3 @@ Built on the principles of **Sovereign AI**, DocuBite leverages the ultra-lightw
 ## 🚀 Integration & Workflow
 
 DocuBite is designed to integrate directly into existing CI/CD pipelines (e.g., GitHub Actions, GitLab CI). When a developer submits a Pull Request, the Smolify-powered model automatically analyzes the core Python functions and posts a plain-English summary as a comment, providing immediate context to reviewers and project managers.
-
----
